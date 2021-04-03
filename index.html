@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Faixa Etária</title>
+    <link rel="shortcut icon" href="img/timer.ico" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css" />
+</head>
+
+<body onload="estilo()">
+    <header>
+        <div id="horas"></div>
+        <div id="data"></div>
+    </header>
+    <main>
+        <div id="meio">
+            <input type="number" min="1930" max="2019" name="ano_nascimeno" id="nascimento" value="1990">
+            <div id="radioSexo">
+            <input type="radio" name="sexo" class="sexo" checked>
+            <label>Masculino</label>
+            <input type="radio" name="sexo" class="sexo">
+            <label>Feminino</label>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="informacoes"></div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+
+</html>

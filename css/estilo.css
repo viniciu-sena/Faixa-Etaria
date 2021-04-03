@@ -1,0 +1,54 @@
+@font-face {
+    font-family: relogio;
+    src: url(../fonts/alarm_clock.ttf) ;
+  }
+
+body{
+    font-family: Arial;
+}
+
+#horas{
+    font-size: 400%;
+    font-family: relogio;
+    text-align: center;
+}
+
+#data{
+    font-size: 200%;
+    font-family: relogio;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#meio{
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nascimento{
+    width: 100%;
+    padding: 2%;
+    font-family: relogio;
+    font-size: 150%;
+}
+
+#radioSexo{
+    width: 100%;
+    text-align: justify;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: monospace;
+    font-size: 150%;
+}
+
+#informacoes{
+    margin-top: 2%;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+    font-size: 150%;
+    text-align: center;
+}
